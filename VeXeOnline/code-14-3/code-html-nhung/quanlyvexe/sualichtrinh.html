@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sửa lịch trình</title>
+	<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSite Bán vé xe online</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="trangchu.html">Trang chủ</a></li>
+      <li class="active"><a href="qlvexe.html">Quản lý vé xe</a></li>
+      <li><a href="lichtrinh.html">Quản lý lịch trình</a></li>
+      <li><a href="quanlyaccount.html">Quản lý account</a></li>
+	  <li><a href="qltintuc.html">Quản lý tin tức</a></li>
+      <li><a href="ThongKe.html">Thống kê</a></li>
+    </ul>
+    <button class="btn btn-danger navbar-btn">Đăng xuất</button>
+  </div>
+  
+</nav>
+<center> <h3 class="text-danger"><B>SỬA LỊCH TRÌNH</B></h3> </center>
+<div class="container">
+  <form action="lichtrinh.html">
+  <center>
+  Mã LT:
+  <input type="text" name="malt" >
+  <br><br>
+  Tên LT:
+  <input type="text" name="tenlt" ">
+  <br><br>
+  Điểm đi:
+  <select>
+  <option value="volvo"></option>
+  <option value="saab">Hà nội</option>
+  <option value="vw">TP Hồ Chí Minh</option>
+  <option value="audi" selected>Đà lạt</option>
+</select>
+  <br><br>
+ Điểm đến:
+  <select>
+  <option value="volvo"></option>
+  <option value="saab">Hà nội</option>
+  <option value="vw">TP Hồ Chí Minh</option>
+  <option value="audi" selected>Đà lạt</option>
+</select>
+  <br><br>
+  Mã vé:
+  <select>
+  <option value="volvo"></option>
+  <option value="saab">MV001</option>
+  <option value="vw">MV002</option>
+  <option value="audi" selected>MV003</option>
+</select>
+  <br><br>
+  Tình trạng:
+<input type="radio" name="gender" value="hd" checked> Hoạt động
+  <input type="radio" name="gender" value="tn"> Tạm ngưng<br>
+  <br><br>
+  <input type="submit" value="Submit">
+  </center>
+</form> 
+</div>
+
+</body>
+</html>

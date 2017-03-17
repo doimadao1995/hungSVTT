@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Quản lý lịch trình</title>
+
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="qlvexe.html">Quản lý vé xe</a></li>
+          <li class="active"><a href="lichtrinh.html">Quản lý lịch trình</a></li>
+          <li><a href="giave.html">Quản lý giá vé </a></li>
+		  <li><a href="dontra.html">Quản lý điểm đón-trả khách </a></li>
+          <li><a href="quanlyaccount.html">Quản lý account</a></li>
+          <li><a href="qltintuc.html">Quản lý tin tức</a></li>
+          <li><a href="ThongKe.html">Thống kê</a></li>
+          <li>
+            <a href="#" style="color:#ffffff;font-weight: bold;">
+              <span class="glyphicon glyphicon-log-out"></span> Logout
+            </a>
+          </li>
+        </ul>
+        
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+<!--   <div style="margin-top: 70px;text-align: center;color: #ff0000;font-weight: bold;">
+      <h1>  Quản lý lịch trình</h1>
+
+  </div> -->
+
+    <div style="margin-top: 70px;">
+
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-4">
+        <a href="#" class="btn btn-info btn-md">
+          <span class="glyphicon glyphicon-plus"></span> Thêm lịch trình
+        </a>
+      </div>
+      <form>
+        <div class="col-xs-3">
+         <input class="form-control" id="ex1" type="text">
+       </div>
+       <input type="submit" class="btn btn-primary" value="Tìm kiếm">
+       
+     </form>
+
+   </div>
+
+
+
+
+   <div class="table-responsive" style="margin-top: 20px;">  
+     <table class="table" >
+      <thead>
+        <tr>
+          <th>Mã lịch trình</th>
+          <th>Điểm đi</th>
+          <th>Điểm đến</th>
+          <th>Mã giá vé</th>		
+          <th>Thời gian chạy</th>
+          <th>Tình trạng</th>
+          <th>Chức năng</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>   
+
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr> 
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+        <tr>
+          <th>HN-HCM</th>
+          <th>Hà Nội</th>
+          <th>Hồ Chí Minh</th>
+          <th>GV01</th>
+          <th>36h</th>
+          <th>Hoạt động </th>
+          <td>
+            <a href="#" > <span class="glyphicon glyphicon-edit"></span></a>
+            <a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"></span></a>
+          </td>
+        </tr>  
+
+      </tbody>
+    </table>
+
+  </div>
+	<center> 
+	    <button class="w3-bar-item w3-button w3-black">First</button>
+	    <button class="w3-bar-item w3-button w3-teal">1</button>
+		<button class="w3-bar-item w3-button w3">2</button>
+		<button class="w3-bar-item w3-button w3">...</button>
+		<button class="w3-bar-item w3-button w3-black">Last</button>
+	  </center> 
+  </div>
+</body>
+</html>

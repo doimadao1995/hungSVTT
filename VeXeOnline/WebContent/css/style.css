@@ -1,0 +1,174 @@
+body{
+    margin: 30px auto 0;
+}
+
+.error{
+	color: red;
+}
+
+   .text-success{
+        color: #1f8456;
+   }
+
+ .text-uppercase{
+      text-transform: uppercase;
+ }
+
+ .ico-drive{
+      width: 24px;
+    height: 26px;
+    background-position: 0 -277px;
+ }
+
+.sprite{
+      background-image: url("hinhanh.png");
+    display: inline-block;
+}
+
+table{
+
+      border-collapse: collapse;
+          background-color: transparent;
+              width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+thead {
+  display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+
+}
+
+.bg-light-green{
+      background: rgba(21,135,76,.59);
+}
+
+.text-white{
+  color: #fff;
+}
+
+tbody {
+      display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+  
+.br-btn-flat{
+
+  position: relative;
+    color: #fff;
+    margin: 8px;
+}
+
+.icon-flat{
+      padding: 9px 12px;
+    position: absolute;
+}
+
+.table>tbody>tr>td{
+      border-bottom: 1px solid #ddd;
+    border-top: none;
+
+     padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+.nav-tabs>li>a{
+  font-size: 18px;
+}
+.nav-tabs>li.active>a{
+  color: #ff0000!important;
+  font-weight: bold;
+}
+
+
+
+
+nav{
+  display: block;
+}
+
+.header-blue{
+  height: 68px;
+    margin-bottom: 50px;
+    background: #1867aa;
+    border-bottom: 1px solid #2799d5;
+        padding-top: 10px;
+}
+
+
+
+.row{
+      margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-3{
+  width: 25%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+}
+
+.header-blue{
+      padding-top: 10px;
+}
+
+.col-md-9{
+  width: 75%;
+  float: left;
+  position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 40px;
+    color: #ff0000;
+}
+
+.header-blue ul.header-blue-menu-list{
+  list-style: none;
+}
+
+ul{
+  margin-bottom: 10px;
+
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+.header-blue ul.header-blue-menu-list li{
+    float: right;
+    margin-left: 25px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.header-blue ul.header-blue-menu-list li a{
+    color: #FFFFFF;
+    position: relative;
+    vertical-align: sub;
+}
+
+.header-blue ul.header-blue-menu-list li button[type=button]{
+    margin-top: 8px;
+    color: #FFFFFF;
+    position: relative;
+    vertical-align: sub;
+}
+
+.header-blue ul.header-blue-menu-list li a:hover{
+   background-color: #2d83cc;
+}

@@ -1,0 +1,14 @@
+#123{
+	top : 50px;
+}
+#header ul#navigation li.current a {
+    color: #99fa99;
+}
+#header ul#navigation li a {
+    color: #b6d8cf;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}

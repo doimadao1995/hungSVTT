@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Quản lý vé xe</title>
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+         <!--
+            function OK() {
+               <!--
+            
+               var retVal = confirm("Bạn có muốn xóa đơn hàng này không ?");
+               if( retVal == true ){
+                  document.write ("Bạn đã xóa thành công");
+                  return true;
+               }
+               else{
+                  
+                  return false;
+               }
+            }
+         
+        
+         //-->
+   </script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="qlvexe.html">Quản lý vé xe</a></li>
+          <li><a href="lichtrinh.html">Quản lý lịch trình</a></li>
+          <li><a href="giave.html">Quản lý giá vé </a></li>
+		  <li><a href="dontra.html">Quản lý điểm đón-trả khách </a></li>
+          <li><a href="quanlyaccount.html">Quản lý account</a></li>
+          <li><a href="qltintuc.html">Quản lý tin tức</a></li>
+          <li><a href="ThongKe.html">Thống kê</a></li>
+          <li>
+            <a href="#" style="color:#ffffff;font-weight: bold;">
+              <span class="glyphicon glyphicon-log-out"></span> Logout
+            </a>
+          </li>
+        </ul>
+        
+
+
+      </div>
+    </div>
+</nav>
+  <div class="container">
+  <div style="margin-top: 70px;">
+
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-4">
+        <a href="#" class="btn btn-info btn-md">
+          <span class="glyphicon glyphicon"></span> Xóa tất cả các đơn hàng chưa thanh toán
+        </a>
+      </div>
+      <form>
+        <div class="col-xs-3">
+         <input class="form-control" id="ex1" type="text">
+       </div>
+       <input type="submit" class="btn btn-primary" value="Tìm kiếm">
+       
+     </form>
+
+   </div>
+   
+   <div class="table-responsive" style="margin-top: 20px;">  
+     <table class="table" >
+      <thead>
+        <tr>
+        <th>Mã vé xe</th>
+		<th>Mã lịch trình</th>
+        <th>Mã KH</th>
+        <th>Ngày đặt</th>
+		<th>Ngày đi</th>
+		<th>Địa điểm đón</th>
+		<th>Địa điểm đi</th>
+		<th>Số lượng</th>
+		<th>Thành tiền</th>
+		<th>Tình trạng</th>
+		<th>Xác nhân thanh toán</th>
+		<th>Chức năng</th>
+      </tr>
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td>VX01</td>
+		<th>LT01</th>
+        <td>KH01</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>      
+      <tr class="success">
+        <td>VX02</td>
+		<th>LT02</th>
+        <td>KH02</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>3</td>
+		<td>300.000</td>
+		<td>Đã thanh toán</td>
+		<td>Bỏ Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>
+      <tr class="danger">
+        <td>VX03</td>
+		<th>LT03</th>
+        <td>KH03</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Đà nẵng</td>
+		<td>Đà nẵng</td>
+		<td>1</td>
+		<td>100.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>
+      <tr class="info">
+        <td>VX04</td>
+		<th>LT04</th>
+        <td>KH04</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>
+      <tr class="warning">
+        <td>VX05</td>
+		<th>LT05</th>
+        <td>KH05</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>
+      <tr class="active">
+        <td>VX06</td>
+		<th>LT06</th>
+        <td>KH06</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><a href="" style="margin-left: 20px;"><span class="glyphicon glyphicon-trash"onclick = "OK();"></span></a></td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+	<center> 
+		<button class="w3-bar-item w3-button w3-black">First</button>
+		<button class="w3-bar-item w3-button w3-teal">1</button>
+		<button class="w3-bar-item w3-button w3">2</button>
+		<button class="w3-bar-item w3-button w3">...</button>
+		<button class="w3-bar-item w3-button w3-black">Last</button>
+	</center>
+  </div>
+</div>
+
+</body>
+</html>

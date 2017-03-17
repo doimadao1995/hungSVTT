@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+	<link rel="stylesheet" href="style.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<div id="header">
+		
+                                            
+  <ul id="navigation" style ="margin-top : 50px;margin-bottom : 20px">
+			<li class="current">
+				<a href="index.html">Home</a>
+				<a href="vexe.html"><b>Quản lý vé xe</b></a>
+				<a href="lichtrinh.html">Quản lý lịch trình</a>				
+				<a href="account.html">Quản lý Account</a>			
+				<a href="tintuc.html">Quản lý tin tức </a>
+				<a href="thongke.html">Thống kê</a>
+				<a href="xuat.html">Đăng xuất</a>
+			</li>
+		</ul>
+</div>
+<div class="container">
+<center>
+ <td><input type = "button" value ="Xóa tất cả các đơn hàng chưa thanh toán" STYLE = "background : red"></td>
+ <td><input type = "search" placeholder ="Search ..... "></td>
+ <td><input type = "button" value ="Tìm"></td>
+ </center>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Mã vé xe</th>
+        <th>Mã KH</th>
+        <th>Ngày đặt</th>
+		<th>Ngày đi</th>
+		<th>Địa điểm đón</th>
+		<th>Địa điểm đi</th>
+		<th>Số lượng</th>
+		<th>Thành tiền</th>
+		<th>Tình trạng</th>
+		<th>Xác nhân thanh toán</th>
+		<th>Chức năng</th>
+      </tr>
+    </thead>
+	
+    <tbody>
+      <tr>
+        <td>VX01</td>
+        <td>KH01</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>      
+      <tr class="success">
+        <td>VX02</td>
+        <td>KH02</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>3</td>
+		<td>300.000</td>
+		<td>Đã thanh toán</td>
+		<td>Bỏ Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>
+      <tr class="danger">
+        <td>VX03</td>
+        <td>KH03</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Đà nẵng</td>
+		<td>Đà nẵng</td>
+		<td>1</td>
+		<td>100.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>
+      <tr class="info">
+        <td>VX04</td>
+        <td>KH04</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>
+      <tr class="warning">
+        <td>VX05</td>
+        <td>KH05</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>
+      <tr class="active">
+        <td>VX06</td>
+        <td>KH06</td>
+        <td>15/02/2017</td>
+		<td>30/02/2017</td>
+		<td>Quảng Nam</td>
+		<td>Quảng Nam</td>
+		<td>2</td>
+		<td>200.000</td>
+		<td>Chưa thanh toán</td>
+		<td>Xác nhận</td>
+		<td><input type = "button" value ="Xóa"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

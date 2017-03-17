@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Quản lý đón-nhận khách </title>
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+         <!--
+            function Warn() {
+               <!--
+            
+               var retVal = confirm("Bạn có muốn xóa bài này không ?");
+               if( retVal == true ){
+                  document.write ("Bạn đã xóa thành công");
+                  return true;
+               }
+               else{
+                  
+                  return false;
+               }
+            }
+         
+        
+         //-->
+  </script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="qlvexe.html">Quản lý vé xe</a></li>
+          <li><a href="lichtrinh.html">Quản lý lịch trình</a></li>
+          <li><a href="giave.html">Quản lý giá vé </a></li>
+		  <li  class="active"><a href="dontra.html">Quản lý điểm đón-trả khách </a></li>
+          <li><a href="quanlyaccount.html">Quản lý account</a></li>
+          <li><a href="qltintuc.html">Quản lý tin tức</a></li>
+          <li><a href="ThongKe.html">Thống kê</a></li>
+          <li>
+            <a href="#" style="color:#ffffff;font-weight: bold;">
+              <span class="glyphicon glyphicon-log-out"></span> Logout
+            </a>
+          </li>
+        </ul>
+        
+
+
+      </div>
+    </div>
+</nav>
+<div class="container">
+<div style="margin-top: 70px;">
+
+      <div class="col-xs-2">
+      </div>
+      <form>
+        <div class="col-xs-3">
+         <input class="form-control" id="ex1" type="text">
+       </div>
+       <input type="submit" class="btn btn-primary" value="Tìm kiếm">
+       
+     </form>
+
+   </div>
+<div class="table-responsive" style="margin-top: 20px;">  
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID điểm đón khách</th>
+        <th>ID điểm trả khách</th>
+        <th>Mã lịch trình</th>
+		<th>Tên địa điểm đón khách</th>
+		<th>Tên địa điểm trả khách</th>
+      </tr>
+    </thead>
+	 <tr class="danger">
+        <th>IDDK01</th>
+        <th>IDTK01</th>
+        <th>LT02</th>
+		<th>ĐÀ LẠT</th>
+		<th>HỒ CHÍ MINH</th>
+      </tr>
+	  <tr class="danger">
+        <th>IDDK01</th>
+        <th>IDTK01</th>
+        <th>LT02</th>
+		<th>HÀ NỘI</th>
+		<th>QUẢNG NAM</th>
+      </tr>
+	  <tr class="danger">
+        <th>IDDK01</th>
+        <th>IDTK01</th>
+        <th>LT02</th>
+		<th>ĐÀ NẴNG</th>
+		<th>HỒ CHÍ MINH</th>
+      </tr>
+	  <tr class="danger">
+        <th>IDDK01</th>
+        <th>IDTK01</th>
+        <th>LT02</th>
+		<th>HÀ NỘI</th>
+		<th>HỒ CHÍ MINH</th>
+      </tr>
+	  </table>
+
+	  <center> 
+	    <button class="w3-bar-item w3-button w3-black">First</button>
+	    <button class="w3-bar-item w3-button w3-teal">1</button>
+		<button class="w3-bar-item w3-button w3">2</button>
+		<button class="w3-bar-item w3-button w3">...</button>
+		<button class="w3-bar-item w3-button w3-black">Last</button>
+	  </center> 
+</body>
+</html>

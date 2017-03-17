@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Thêm mới tin tức</title>
+	<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style= "background:#d6d4d4">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="qlvexe.html">Quản lý vé xe</a></li>
+          <li><a href="lichtrinh.html">Quản lý lịch trình</a></li>
+          <li><a href="giave.html">Quản lý giá vé </a></li>
+		  <li><a href="dontra.html">Quản lý điểm đón-trả khách </a></li>
+          <li><a href="quanlyaccount.html">Quản lý account</a></li>
+          <li class="active"><a href="qltintuc.html">Quản lý tin tức</a></li>
+          <li><a href="ThongKe.html">Thống kê</a></li>
+          <li>
+            <a href="#" style="color:#ffffff;font-weight: bold;">
+              <span class="glyphicon glyphicon-log-out"></span> Logout
+            </a>
+          </li>
+        </ul>
+        
+
+
+      </div>
+    </div>
+</nav>
+	
+<form  class ="text-info" action="qltintuc.html">
+	<div class="container">
+  <form>
+    <div class="form-group" style ="margin-top: 65px">
+		<center><h1>THÊM MỚI TIN TỨC</h1></center>
+	</div>
+    <div class="form-group">
+      <label for="inputdefault">ID</label>
+      <input class="form-control" id="inputdefault" type="text">
+    </div>
+    <div class="form-group">
+	  <label>Hình ảnh</label><br>
+      <input type="image"   width="180" height="150" name="hinhanh">
+    </div>
+    <div class="form-group">
+      <label for="inputsm">Tiêu đề</label>
+      <input class="form-control input-sm" id="inputsm" type="text">
+    </div>
+    <div class="form-group">
+      <label for="sel1">Nội dung</label> <br>
+      <textarea name="noidung" class ="form-control">
+	  </textarea>
+    </div>
+    <div class="form-group">
+      <label for="sel2">Ngày đăng bài</label>
+      <input class="form-control" id="inputdefault" type="date">
+    </div>
+    <div class="form-group">
+      <label for="sel3">Admin</label>
+      <input class="form-control" id="inputdefault" type="text">
+    </div>
+	<div class="form-group">
+	<label for="sel3">Danh mục</label>
+	<select class="form-control input-sm" id="sel3">
+		<option>.....</option>
+        <option>Tin tức mới</option>
+        <option>Tin trong ngày</option>      
+     </select>
+	</div>
+	<center>
+		<button type="submit" class="btn btn-primary">Thêm mới</button>
+		<button type="buton" class="btn btn-primary">Hủy</button>
+	</center>
+  </form>
+</div>
+</form> 
+
+</body>
+</html>
